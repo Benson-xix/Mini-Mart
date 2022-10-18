@@ -9,6 +9,10 @@ const CategoryProvider = ({ children }) => {
   const getCategories = async () => {
     const data = await getAllCategories();
     console.log({ data });
+    if ("error" in data) {
+      setCategories([]);
+      return;
+    }
     setCategories(data);
   };
 
