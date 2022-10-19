@@ -94,8 +94,13 @@ const Header = () => {
               fontSize={"xs"}
               bgColor={"rgb(13,9,49)"}
               color={"white"}
+            > <Link
+            to={"/register"}
+            
             >
-              Dont't miss out.&nbsp;<strong>Subscribe now</strong>
+            
+          
+              Dont't miss out.&nbsp;<strong>Subscribe now</strong>  </Link>
             </Button>
           </Flex>
         </Container>
