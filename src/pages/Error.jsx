@@ -6,7 +6,7 @@ const Error = () => {
     const navigate = useNavigate()
     useEffect (() => {
         setTimeout(()=>  {
-            navigate("/")
+            navigate("/cart")
         }, 3000)
     }, [])
   return (
