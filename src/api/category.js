@@ -1,4 +1,4 @@
-export const BASE_URL = "https://mini-mart-api.herokuapp.com/";
+export const BASE_URL = "https://mini-mart-api.herokuapp.com";
 
 export const getAllCategories = async () => {
   try {
